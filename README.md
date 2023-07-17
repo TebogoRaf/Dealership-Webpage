@@ -1,2 +1,2 @@
-# Dealership-Webpage
-The application advertises a dealership that is soon to be opened
+# Personal Details and Calculator
+The application allows you to make calculations and also register yourself
