@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<title>MyDesign</title>
+<link rel="stylesheet" href="MyWebsite.css"/>
+	<body>
+	<table id="user-table">
+        <thead>
+	<table width="500" border="0" cellspacing="0" cellpadding="0" style="border:solid 1px #333;">
+	Registration Details :
+  <tr>
+    <td width="50%" style="border-right:solid 1px #333;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		USER
+    </table></td>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td style="border-bottom:solid 1px #333;">Name</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:solid 1px #333;">Email</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:solid 1px #333;">Password</td>
+		<tr>
+        <td>Country</td>
+      </tr>
+      </tr>
+    </table></td>
+  </tr>
+  </table>
+</table><br><br>
+
+
+ <div class="container">
+      <h2>Registration Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter a password" required />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" placeholder="Confirm password" required />
+
+        <label for="country">Country:</label>
+        <select id="country">
+          <option value="us">United States</option>
+          <option value="ca">Canada</option>
+          <option value="sa">United Kingdom</option>
+          <option value="au">South Africa</option>
+        </select>
+
+        <input type="submit" value="Register" />
+      </form>
+</div>
+ <h2>Fibonacci Series:</h2>
+    <input type="text" id="fib-input" placeholder="Enter a number" />
+    <button id="fib-button">Calculate</button>
+    <p id="fib-result"></p>
+
+    <h2>Factorial:</h2>
+    <input type="text" id="fact-input" placeholder="Enter a number" />
+    <button id="fact-button">Calculate</button>
+    <p id="fact-result"></p>
+
+    <h2>Create Images:</h2>
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <script src="MyWebsite.js"></script>
+	</body>
+</html>
